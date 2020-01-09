@@ -2,7 +2,7 @@
 <ul>
     <li class="movies-list" *ngFor="let movie of movies">
         {{movie.title}}<br>
-        {{movie.category}}<br>
+        <span [class.comedy]="movie.category === 'comedy'">{{movie.category}}<br></span>
         {{movie.year}}<br>
     </li>
 </ul>

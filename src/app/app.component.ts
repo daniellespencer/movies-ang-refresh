@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'movies';
 
   watched = [
-      new Movie("1067", "action", 2019),
+      new Movie("1067", "comedy", 2019),
       new Movie("little woman", "drama", 2019)
 
   ]
