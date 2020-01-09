@@ -10,11 +10,14 @@ export class MoviesListComponent implements OnInit {
   @Input() movies: Movie[];
   @Input() name: string;  
 
-  constructor() { 
-    
+  constructor() {     
   }
 
   ngOnInit() {
+  }
+
+  details(movie: Movie){
+    alert(`details for ${movie.title}`);
   }
 
 }

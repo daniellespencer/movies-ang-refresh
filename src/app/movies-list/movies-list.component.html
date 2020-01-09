@@ -1,7 +1,7 @@
 <h2>{{name}}</h2>
 <ul>
     <li class="movies-list" *ngFor="let movie of movies">
-        {{movie.title}}<br>
+        <span class="clickable" (click)="details(movie)">{{movie.title}}<br></span>
         <span [class.comedy]="movie.category === 'comedy'">{{movie.category}}<br></span>
         {{movie.year}}<br>
     </li>
