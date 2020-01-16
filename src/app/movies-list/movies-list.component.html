@@ -6,3 +6,7 @@
         {{movie.year}}<br>
     </li>
 </ul>
+<label>Title<input type="text" [(ngModel)]="newTitle"></label>
+<label>Year<input type="text" [(ngModel)]="newYear"></label>
+<label>Category<input type="text" [(ngModel)]="newCategory"></label>
+<button (click)="addMovie()">Add movie</button>
