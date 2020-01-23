@@ -1,0 +1,15 @@
+$font-stack: Courier;
+$primary-color: #cc9900;
+
+.movies-list {
+    margin-bottom: 20px;
+    font: 100% $font-stack
+}
+
+.comedy {
+    color: $primary-color;
+}
+
+.clickable {
+    cursor: pointer;
+}
